@@ -131,6 +131,7 @@ overlay.addEventListener('click', (e) => {
   const ul = phrase.firstElementChild;
   let tries = document.querySelectorAll('.tries');
   const button = e.target;
+  overlay.className = 'start';
   // if the start game button is clicked then the overlay will hide and show the game
   if(e.target.className == 'btn__reset') {
       overlay.style.visibility = 'hidden';
