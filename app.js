@@ -120,7 +120,7 @@ qwerty.addEventListener('click', (e) => {
     }
   }
     // delays the overlay for win or lost to show so the animation on the phrase can finish before
-    setTimeout(checkWin, 600);
+    setTimeout(checkWin, 500);
 });
 
 
